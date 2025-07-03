@@ -6,7 +6,7 @@ import streamlit as st
 st.title("Análisis de anuncios de autos usados")
 
 # Leer los datos
-car_data = pd.read_csv(r'C:\Users\david\OneDrive\Escritorio\PROYECTO 7\vehicles_us.csv')
+car_data = pd.read_csv('vehicles_us.csv')
 
 # Casillas de verificación
 show_hist = st.checkbox('Mostrar histograma de odómetro')
