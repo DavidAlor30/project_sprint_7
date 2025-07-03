@@ -21,6 +21,6 @@ if show_hist:
 # Mostrar gráfico de dispersión
 if show_scatter:
     st.write('Gráfico de dispersión: Precio vs Odómetro')
-    fig2 = px.scatter(car_data, x="odometer", y="price", opacity=0.3,
+    fig2 = px.scatter(car_data, x="odometer", y="price", opacity=0.2,
                       title="Relación entre odómetro y precio")
     st.plotly_chart(fig2, use_container_width=True)
